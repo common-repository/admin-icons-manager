@@ -1,0 +1,105 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.activeset, .btn:hover {
+  background-color: #9C27B0;
+  color: white;
+}
+
+#fade {background:red; width:450px; height:150px; position:absolute;}
+.close {
+ color:white;
+ font:bold 40px Arial,Sans-Serif;
+ text-decoration:none;    
+}
+#fade p {
+ text-align:center;   
+}
+
+.alert {
+    /*position: relative;*/
+    /*padding: .75rem 1.25rem;*/
+    margin-bottom: 1rem;
+	margin-top: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+
+
+div.optionsTable {
+  border: 1px solid #1C6EA4;
+  background-color: #F9F9F9;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  padding: 15px 12px;
+}
+.divTable.optionsTable .divTableCell, .divTable.optionsTable .divTableHead {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.divTable.optionsTable .divTableBody .divTableCell {
+  font-size: 13px;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 20%;
+  padding: 15px 12px;
+}
+.divTable.optionsTable .divTableCell:nth-child(even) {
+  background: #FFFFFF;
+  color: #CCCCCC;
+  font-weight: normal;
+  width: 80%;
+}
+.optionsTable .tableFootStyle {
+  font-size: 14px;
+}
+.optionsTable .tableFootStyle .links {
+	 text-align: right;
+}
+.optionsTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.optionsTable.outerTableFooter {
+  border-top: none;
+}
+.optionsTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
